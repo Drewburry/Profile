@@ -1,0 +1,226 @@
+/* Master Styles  */
+body {
+    margin: 0px;
+    background-color:#f7f7f7 ;
+    font-family: 'Noto Serif', serif; font-family: 'Questrial', sans-serif;
+    }
+
+ .container {
+    grid-template-columns: 1fr;
+ }
+ 
+
+/*Nav Styles*/
+p {
+  font-family: 'Noto Serif', serif; font-family: 'Questrial', sans-serif;
+}
+.name-tag {
+    color:#f7f7f7;
+    font-family: 'Noto Serif', serif; font-family: 'Questrial', sans-serif;
+}
+.navwrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+   background-color:#a7bbc7;
+}
+
+.nav-right-wrapper {
+    display: flex;
+}
+ 
+.navwrapper > .nav-right-wrapper > div {
+    margin-left: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.link-wrapper a {
+    color:#8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.link-wrapper:hover{
+    border-bottom: 1px solid black;
+}
+.link-wrapper a:hover{
+    color: black;
+}
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+.active-nav-link a{
+    color:black !important;
+}
+
+/*Portfolio styles*/
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.content-wrapper > .text-wrapper {
+   margin-left: 5%;  
+    float: left;
+}
+
+.text-wrapper {
+    text-align: center;
+    margin-left: 25%;
+    padding: 10%;
+    margin-top: 35%;
+}
+h1 {
+    color: darkred;
+}
+
+p {
+    text-decoration:underline;
+}
+
+.btn2 {
+    margin-left: 40%;
+    width: auto;
+}
+.imagesAndcontent {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    margin-top:3%;
+    margin-right: 10%;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #af5b4c;
+    margin-left: 5%;
+  }
+  
+  .button2:hover {
+    background-color: #af574c;
+    color: white;
+  }
+
+  /*About Page*/
+
+  
+
+ /*Work page*/
+  .work-wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 12%;
+    margin-bottom: 4%;
+  }
+  .work-wrapper > .work-text > h2{
+    color: red;
+  }
+
+  .work-wrapper > .work-text > p{
+    text-decoration: none; 
+  
+    text-align: center;
+    justify-content: space-evenly;
+    
+  }
+
+.htext{
+  text-align: center;
+  margin-top: 35%;
+  text-decoration: none;
+}
+
+.text-wrapper {
+margin-left: 5%;
+}
+
+.aboutText {
+  margin-top: 2%;
+  text-align: center;
+
+}
+.aboutText h1 {
+ text-align: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.aIconsWrapper {
+  display:flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 5%;
+}
+
+#work {
+ margin-right: 30%; 
+}
+
+  /* Content at the footer*/
+  footer{
+      background-color:#A7BBC7;
+  }
+
+  .bottom-icon-wrapper{
+      display: flex;
+      justify-content: center;
+  }
+ i{
+     font-size: 35px;
+     text-align: center;
+     color: black;
+ }
+ .whatsapp-icon{
+     margin-left: 2%;
+     margin-top: 1%;
+ }
+ .profile-text{
+    font-size: 17px;
+    text-decoration: none; 
+ }
+
+ .profile-text2{
+    font-size: 17px; 
+    text-decoration: none;
+ }
